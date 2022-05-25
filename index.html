@@ -9,87 +9,90 @@
         <title>Flex Cards</title>
     </head>
     <body>
-        <header>
-            <!--  -->
-            <h1>
-                Meet our team
-            </h1>
-        </header>
-        <main >
-            <!-- primo div con scritta centrale sotto al titolo -->
-            <div class="string-container">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsam tempore, repudiandae numquam expedita vel laudantium commodi accusamus consectetur accusantium nisi excepturi ex laborum a ducimus necessitatibus veritatis libero porro?</p>
-            </div>
-            <!-- secondo div con all'interno due flex separati per inserire le 6 card -->
-            <!-- inizio con la prima, creando una cascata di elementi che andranno a creare una delle 6 card -->
-            <div class="card-container">
-                <div class="first-row">
-                <!-- deve essere un flex da 3 elementi orizzontali-->
-                    <div class="card">
-                    <!-- flex da 2 elementi orizzontali-->
-                        <img src="./img/male1.png" alt="Foto Mario Bianchi">
-                        <div class="card-description">
-                        <!-- flex da 3 elementi verticali-->
-                           <p class="name">Mario Bianchi</p>
-                           <p class="profession">Designer</p>
-                           <p class="mail">mariobianchi@team.com</p> 
-                        </div>
-                    </div>
-                    <div class="card">
-                        <!-- flex da 2 elementi orizzontali-->
-                            <img src="./img/female1.png" alt="Foto Laura Rossi">
-                            <div class="card-description">
-                            <!-- flex da 3 elementi verticali-->
-                               <p class="name">Laura Rossi</p>
-                               <p class="profession">Front-end Developer</p>
-                               <p class="mail">laurarossi@team.com</p> 
-                            </div>
-                        </div>
-                    <div class="card">
-                        <!-- flex da 2 elementi orizzontali-->
-                            <img src="./img/male2.png" alt="Foto Giorgio Verdi">
-                            <div class="card-description">
-                            <!-- flex da 3 elementi verticali-->
-                                <p class="name">Giorgio Verdi</p>
-                                <p class="profession">Back-end Developer</p>
-                                <p class="mail">giorgioverdi@team.com</p> 
-                            </div>
-                        </div>
+        <div class="site-container">
+        <!-- riquadro in cui sta l'intera pagina -->   
+            <header>
+                <!--  -->
+                <h1>
+                    Meet our team
+                </h1>
+            </header>
+            <main >
+                <!-- primo div con scritta centrale sotto al titolo -->
+                <div class="string-container">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsam tempore, repudiandae numquam expedita vel laudantium commodi accusamus consectetur accusantium nisi excepturi ex laborum a ducimus necessitatibus veritatis libero porro:</p>
                 </div>
-                <div class="second-row">
+                <!-- secondo div con all'interno due flex separati per inserire le 6 card -->
+                <!-- inizio con la prima, creando una cascata di elementi che andranno a creare una delle 6 card -->
+                <div class="card-container">
+                    <div class="first-row">
                     <!-- deve essere un flex da 3 elementi orizzontali-->
                         <div class="card">
                         <!-- flex da 2 elementi orizzontali-->
-                            <img src="./img/female2.png" alt="Foto Marta Ipsum">
+                            <img src="./img/male1.png" alt="Foto Mario Bianchi">
                             <div class="card-description">
                             <!-- flex da 3 elementi verticali-->
-                               <p class="name">Marta Ipsum</p>
-                               <p class="profession">SEO Specialist</p>
-                               <p class="mail">martaipsum@team.com</p> 
+                            <p class="name">Mario Bianchi</p>
+                            <p class="profession">Designer</p>
+                            <p class="mail">mariobianchi@team.com</p> 
                             </div>
                         </div>
                         <div class="card">
                             <!-- flex da 2 elementi orizzontali-->
-                                <img src="./img/male3.png" alt="Foto Roberto Lorem">
+                                <img src="./img/female1.png" alt="Foto Laura Rossi">
                                 <div class="card-description">
                                 <!-- flex da 3 elementi verticali-->
-                                   <p class="name">Roberto Lorem</p>
-                                   <p class="profession">Project Manager</p>
-                                   <p class="mail">robertolorem@team.com</p> 
+                                <p class="name">Laura Rossi</p>
+                                <p class="profession">Front-end Developer</p>
+                                <p class="mail">laurarossi@team.com</p> 
                                 </div>
                             </div>
                         <div class="card">
                             <!-- flex da 2 elementi orizzontali-->
-                                <img src="./img/female3.png" alt="Foto Daniela Amet">
+                                <img src="./img/male2.png" alt="Foto Giorgio Verdi">
                                 <div class="card-description">
                                 <!-- flex da 3 elementi verticali-->
-                                    <p class="name">Daniela Amet</p>
-                                    <p class="profession">Analyst</p>
-                                    <p class="mail">danielaamet@team.com</p> 
+                                    <p class="name">Giorgio Verdi</p>
+                                    <p class="profession">Back-end Developer</p>
+                                    <p class="mail">giorgioverdi@team.com</p> 
                                 </div>
                             </div>
                     </div>
-            </div>
-        </main>
-    </body>
+                    <div class="second-row">
+                        <!-- deve essere un flex da 3 elementi orizzontali-->
+                            <div class="card">
+                            <!-- flex da 2 elementi orizzontali-->
+                                <img src="./img/female2.png" alt="Foto Marta Ipsum">
+                                <div class="card-description">
+                                <!-- flex da 3 elementi verticali-->
+                                <p class="name">Marta Ipsum</p>
+                                <p class="profession">SEO Specialist</p>
+                                <p class="mail">martaipsum@team.com</p> 
+                                </div>
+                            </div>
+                            <div class="card">
+                                <!-- flex da 2 elementi orizzontali-->
+                                    <img src="./img/male3.png" alt="Foto Roberto Lorem">
+                                    <div class="card-description">
+                                    <!-- flex da 3 elementi verticali-->
+                                    <p class="name">Roberto Lorem</p>
+                                    <p class="profession">Project Manager</p>
+                                    <p class="mail">robertolorem@team.com</p> 
+                                    </div>
+                                </div>
+                            <div class="card">
+                                <!-- flex da 2 elementi orizzontali-->
+                                    <img src="./img/female3.png" alt="Foto Daniela Amet">
+                                    <div class="card-description">
+                                    <!-- flex da 3 elementi verticali-->
+                                        <p class="name">Daniela Amet</p>
+                                        <p class="profession">Analyst</p>
+                                        <p class="mail">danielaamet@team.com</p> 
+                                    </div>
+                                </div>
+                        </div>
+                </div>
+            </main>
+        </body>
+    </div>   
 </html>
