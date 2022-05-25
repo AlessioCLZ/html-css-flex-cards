@@ -17,14 +17,74 @@
     margin-right: auto;
 }
 
+/*parti che non necessitano di flex*/
+
 h1
 {
     margin-top: 43px;
     margin-bottom: 50px;
     color: #e53170;
+    font-size: 45px;
 }
 
 .string-container
 {
     margin-bottom: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*parti che necessitano di flex*/
+
+/*riga di card*/
+
+.card-row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*card intera*/
+.card
+{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 90px;
+    width: 300px;
+    box-shadow: 0px 0px 6px black;
+}
+
+/*parte scritta della card*/
+.card-description
+{
+    display:flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-evenly;
+    text-align: left;
+    padding-left: 15px;
+    height: 90%;
+    margin-top: auto;
+    margin-bottom: auto;    
+}
+
+.name
+{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.mail
+{
+    font-size: 14px;
+    color: #64c8eb;
 }
