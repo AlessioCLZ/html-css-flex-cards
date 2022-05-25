@@ -83,6 +83,11 @@ h1
     font-size: larger;
 }
 
+.profession
+{
+    font-weight: 500; 
+}
+
 .mail
 {
     font-size: 14px;
